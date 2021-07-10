@@ -1,0 +1,33 @@
+body {
+    
+    border: 5px solid red;
+    width: 100%;
+    height: 1000px;
+}
+
+header{
+    display: flex;
+    border: 5px solid red;
+    width: 100%;
+    height: 100px;
+}
+
+main{
+    
+}
+
+footer{
+    display: flex;
+}
+
+.section1{
+    background-color: aqua;
+   
+}
+
+
+.logo{
+    display: flex;
+    border: 5px solid red;
+    width: 30%;
+    height: 100px;
