@@ -1,8 +1,8 @@
 body {
-    
+    background-color: rgb(194, 255, 235);
     border: 5px solid red;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
 }
 
 header{
@@ -13,15 +13,11 @@ header{
     height: 100px;
 }
 
-
-
-
-
 .logo{
     display: flex;
     justify-content: center;
     border: 5px solid red;
-    width: 30%;
+    width: 25%;
     height: 100px; 
 }
 
@@ -29,7 +25,7 @@ header{
     display: flex;
     justify-content: center;
     border: 5px solid rgb(4, 84, 87);
-    width: 70%;
+    width: 75%;
     height: 100px;
 }
 
@@ -49,8 +45,6 @@ header{
     margin: 50px auto;
     box-shadow: 0px 15px 10px -5px #777;
 }
-
-
 
 @keyframes defilement1{
 
@@ -73,11 +67,125 @@ header{
     background-color: aqua;
     border: 5px solid red;
     width: 100%;
-    height: 100px;
+    height: 300px;
+}
+
+.maPresentation{
+    border: 5px solid rgb(100, 3, 100);
+    width: 38%;
+    height: 300px;
+    background-color: rgb(252, 248, 192);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+}
+
+.experiance{
+    border: 5px solid rgb(100, 3, 100);
+    width: 32%;
+    height: 300px;
+    background-color: rgb(107, 248, 166);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+.maitrise{
+    border: 5px solid rgb(100, 3, 100);
+    width: 21%;
+    height: 300px;
+    background-color: rgb(252, 248, 192);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+}
+
+.d2{
+    width: 7840px;
+    height: 320px;
+    background-color: #ededed;
+    background: url("diapo/diapo101.png");
+    background-size: contain;
+    animation: defilement2 reverse 30s linear infinite;
+}
+
+
+.conteneur2{
+    overflow:hidden;
+    max-width: 100%;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+}
+
+@keyframes defilement2{
+
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-2880px,0);
+    }
+
+    
+}
+
+.d1:hover, .d2:hover{
+    animation-play-state: paused;
+}
+.section5{
+    display: flex;
+    background-color: aqua;
+    border: 5px solid red;
+    width: 100%;
+    height: 300px;
+}
+
+.diplomes{
+    border: 5px solid rgb(100, 3, 100);
+    width: 30%;
+    height: 300px;
+    background-color: rgb(252, 248, 192);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+}
+
+.contact{
+    border: 5px solid rgb(100, 3, 100);
+        width: 35%;
+        height: 300px;
+        background-color: rgb(230, 190, 210);
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+}
+
+.certificat{
+    border: 5px solid rgb(100, 3, 100);
+    width: 40%;
+    height: 300px;
+    background-color: rgb(252, 248, 192);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
 }
 
 footer{
     display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 38%;
+    height: 300px;
+    background-color: rgb(252, 248, 192);$
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
 }
 
 
