@@ -176,16 +176,67 @@ header{
         flex-flow: column wrap;
 }
 
-footer{
+.reseauxSociaux{
     display: flex;
     border: 5px solid rgb(250, 121, 228);
     width: 38%;
+    height: 30px;
+    background-color: rgb(252, 248, 192);$   
+}
+
+.facebook{
+    display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 38%;
+    height: 30px;
+    background-color: rgb(252, 248, 192);$
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.linkedin{
+    display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 38%;
+    height: 30px;
+    background-color: rgb(252, 248, 192);$
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.instagram{
+    display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 38%;
+    height: 30px;
+    background-color: rgb(252, 248, 192);$
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.fomrulaire{
+    display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 38%;
+    height: 30px;
+    background-color: rgb(252, 248, 192);$
+    
+
+}
+
+footer{
+    display: flex;
+    border: 5px solid rgb(250, 121, 228);
+    width: 50%;
     height: 300px;
     background-color: rgb(252, 248, 192);$
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
 }
-}
+
 
 
